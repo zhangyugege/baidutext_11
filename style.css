@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "黑体";
+    background-color: #eeeeee;
+
+}
+header{
+    width: 100%;
+    height: 4rem;
+    background-color:  #91D4DA;
+    text-align: center;
+    color: white;
+}
+header a{
+    margin-top: 1rem;
+    position: absolute;
+    left: 1rem;
+    font-size: 18px;
+}
+header h1{
+    display: block;
+
+    padding-top: 1rem;
+    font-size: 20px;
+}
+#navbar{
+    background-color: white;
+    padding: 1.2rem 0;
+    width: 100%;
+}
+#navbar .top{
+    height: 4rem;
+}
+#navbar ul{
+    margin:0 2rem;
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 16px;
+}
+#navbar ul li{
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    line-height: 2rem;
+}
+#navbar ul .nav-active:after{
+    content: "";
+    width: 100%;
+    height: 0.3rem;
+    background-color: #91D4DA;
+    display: block;
+}
+#navbar .nav-pic{
+    width: 100%;
+    height: 14rem;
+    background-color: #f5e327;
+}
+#navbar .nav-mid{
+    margin-top: 2rem;
+}
+#navbar  .nav-mid-img{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 1.5rem;
+    background-color: #91D4DA;
+    margin-left: 1.4rem;
+}
+#navbar .nav-vertical{
+    margin-top: 2rem;
+    border-top: solid 0.2rem #eeeeee;
+    padding-top: 2rem;
+
+}
+#navbar .nav-vertical li{
+     width: 30%;
+    margin: 0 0.2rem;
+    padding: 0.2rem 0.8rem;
+ }
+#navbar .nav-vertical li:not(:last-child){
+    border-right: solid 0.2rem #eeeeee;
+}
+#navbar .nav-vertical .nav-bottom-img{
+    margin-left: 1rem;
+    width: 80%;
+    height: 6rem;
+    background-color: #46b8da;
+}
+#navbar .nav-vertical li h2,h3{
+    margin: 0 auto;
+    display: block;
+}
+#navbar .nav-vertical li h2{
+    font-size: 16px;
+}
+#navbar .nav-vertical li h3{
+    font-size: 12px;
+    color: #555555;
+}
+
+
+.module1{
+    background-color: white;
+    width: 100%;
+    position: relative;
+    margin-top: 2rem;
+}
+.module1 .title{
+
+  
+    width: 90%;
+    margin: 0 auto;
+    border-bottom: solid 0.1rem #000000;
+}
+.module1 .title h2{
+    font-size: 16px;
+    color: #555555;
+    display: block;
+    margin: 0.6rem;
+    padding-top: 1rem;
+    
+}
+
+.module1 .modu-wrap{
+    margin: 1rem;
+}
+.module1 .modu-wrap .modu-img{
+    width: 6rem;
+    height: 6rem;
+    background-color: #d2322d;
+}
+.module1 .modu-wrap .modu-content{
+    margin: 1rem;
+    width: 21rem;
+}
+.modu-wrap{
+    overflow: hidden;
+}
+.fl{
+     float: left;
+ }
+.modu-vertical h3{
+    padding-top: 0.5rem;
+    display: block;
+    width: 8rem;
+    height: 2rem;
+    background-color:#eeeeee;
+    font-size: 16px;
+    margin: 0.4rem;
+    text-align: center;
+}
+.modu-vertical{
+    height: 6rem;
+    margin:0 0.6rem;
+    margin-top: -1rem;
+}
+
+#m-bottom .modu-img{
+    width:6rem;
+    height: 6rem;
+    background-color: #d2322d;
+    margin-top: 1rem;
+}
+#m-bottom {
+    position: relative;
+    width: 100%;
+}
+#m-bottom .modu-content{
+    margin-left: 1rem;
+    width: 60%;
+}
+#m-bottom .modu-content h3{
+    font-size: 22px;
+    margin-bottom: 1rem;
+}
+#m-bottom .modu-content h4{
+    color: #555555;
+}
+#m-bottom .modu-wrap{
+    padding: 1.0rem;
+}
+#m-bottom .modu-wrap:not(:last-child){
+    border-bottom: solid 0.2rem #cccccc;
+}
+#last-con .modu-content .modu-img {
+    width: 30%;
+    margin: 0.2rem;
+}
+#last-con .modu-content{
+    width: 100%;
+    margin: 0;
+}
+#last-con{
+    margin:0;
+}
+#last-con .modu-content h4{
+    display: block;
+}
+footer{
+    height: 4rem;
+}
